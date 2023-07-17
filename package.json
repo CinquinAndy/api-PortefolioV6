@@ -1,0 +1,30 @@
+{
+  "name": "api-portefolio-v-6",
+  "private": true,
+  "version": "0.1.0",
+  "description": "API For my Portefolio",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.11.5",
+    "@strapi/plugin-users-permissions": "4.11.5",
+    "@strapi/provider-upload-aws-s3": "^4.11.5",
+    "@strapi/strapi": "4.11.5",
+    "better-sqlite3": "8.0.1"
+  },
+  "author": {
+    "name": "Andy Cinquin"
+  },
+  "strapi": {
+    "uuid": "fb64a6bf-904a-4e28-80bd-b93ab994b295"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
