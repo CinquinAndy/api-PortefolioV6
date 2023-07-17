@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_legal_legals",
+  "info": {
+    "displayName": "legal",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "label_legal": {
+      "type": "string"
+    },
+    "url_legal": {
+      "type": "string"
+    },
+    "label_confidentiality": {
+      "type": "string"
+    },
+    "url_confidentiality": {
+      "type": "string"
+    }
+  }
+}

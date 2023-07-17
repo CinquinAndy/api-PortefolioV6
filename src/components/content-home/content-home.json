@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_content_home_content_homes",
+  "info": {
+    "displayName": "Content_home",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "title_home": {
+      "type": "string"
+    },
+    "title_service": {
+      "type": "string"
+    },
+    "title_blog": {
+      "type": "string"
+    },
+    "title_realisation": {
+      "type": "string"
+    }
+  }
+}

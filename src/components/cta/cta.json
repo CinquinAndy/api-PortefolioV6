@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cta_ctas",
+  "info": {
+    "displayName": "cta",
+    "icon": "paperPlane"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "label_btn": {
+      "type": "string"
+    },
+    "url_btn": {
+      "type": "string"
+    }
+  }
+}

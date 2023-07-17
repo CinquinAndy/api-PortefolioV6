@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sitemap_sitemaps",
+  "info": {
+    "displayName": "sitemap",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "label_realisation": {
+      "type": "string"
+    },
+    "url_realisation": {
+      "type": "string"
+    },
+    "url_contact": {
+      "type": "string"
+    },
+    "label_contact": {
+      "type": "string"
+    },
+    "label_service": {
+      "type": "string"
+    },
+    "url_service": {
+      "type": "string"
+    },
+    "label_blog": {
+      "type": "string"
+    },
+    "url_blog": {
+      "type": "string"
+    }
+  }
+}

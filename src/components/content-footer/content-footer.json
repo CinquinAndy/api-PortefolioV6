@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_content_footer_content_footers",
+  "info": {
+    "displayName": "content_footer",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "copyright": {
+      "type": "text"
+    },
+    "sitemap": {
+      "displayName": "sitemap",
+      "type": "component",
+      "repeatable": false,
+      "component": "sitemap.sitemap"
+    },
+    "legal": {
+      "displayName": "legal",
+      "type": "component",
+      "repeatable": false,
+      "component": "legal.legal"
+    },
+    "cta": {
+      "displayName": "cta",
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.cta"
+    }
+  }
+}
