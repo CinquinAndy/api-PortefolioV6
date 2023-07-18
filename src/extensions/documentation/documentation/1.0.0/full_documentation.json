@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-17T23:02:23.045Z"
+    "x-generation-date": "2023-07-18T12:47:34.550Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1513,35 +1513,19 @@
           "id": {
             "type": "number"
           },
-          "home": {
-            "type": "string"
-          },
-          "service": {
-            "type": "string"
-          },
-          "blog": {
-            "type": "string"
-          },
-          "realisation": {
-            "type": "string"
-          },
-          "contact": {
-            "type": "string"
-          },
-          "url_home": {
-            "type": "string"
-          },
-          "url_service": {
-            "type": "string"
-          },
-          "url_blog": {
-            "type": "string"
-          },
-          "url_realisation": {
-            "type": "string"
-          },
-          "url_contact": {
-            "type": "string"
+          "link": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "label": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            }
           }
         }
       },
@@ -2216,34 +2200,13 @@
             "type": "string"
           },
           "sitemap": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
-              },
-              "label_realisation": {
-                "type": "string"
-              },
-              "url_realisation": {
-                "type": "string"
-              },
-              "url_contact": {
-                "type": "string"
-              },
-              "label_contact": {
-                "type": "string"
-              },
-              "label_service": {
-                "type": "string"
-              },
-              "url_service": {
-                "type": "string"
-              },
-              "label_blog": {
-                "type": "string"
-              },
-              "url_blog": {
-                "type": "string"
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                }
               }
             }
           },

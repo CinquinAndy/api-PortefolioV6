@@ -7,35 +7,11 @@
   },
   "options": {},
   "attributes": {
-    "home": {
-      "type": "string"
-    },
-    "service": {
-      "type": "string"
-    },
-    "blog": {
-      "type": "string"
-    },
-    "realisation": {
-      "type": "string"
-    },
-    "contact": {
-      "type": "string"
-    },
-    "url_home": {
-      "type": "string"
-    },
-    "url_service": {
-      "type": "string"
-    },
-    "url_blog": {
-      "type": "string"
-    },
-    "url_realisation": {
-      "type": "string"
-    },
-    "url_contact": {
-      "type": "string"
+    "link": {
+      "displayName": "menu_item",
+      "type": "component",
+      "repeatable": false,
+      "component": "menu-item.menu-item"
     }
   }
 }
