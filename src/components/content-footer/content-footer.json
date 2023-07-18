@@ -23,24 +23,6 @@
     },
     "copyright": {
       "type": "text"
-    },
-    "sitemap": {
-      "displayName": "sitemap",
-      "type": "component",
-      "repeatable": true,
-      "component": "sitemap.sitemap"
-    },
-    "legal": {
-      "displayName": "legal",
-      "type": "component",
-      "repeatable": false,
-      "component": "legal.legal"
-    },
-    "cta": {
-      "displayName": "cta",
-      "type": "component",
-      "repeatable": false,
-      "component": "cta.cta"
     }
   }
 }
