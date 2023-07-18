@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-18T13:29:59.127Z"
+    "x-generation-date": "2023-07-18T13:44:33.043Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1223,6 +1223,12 @@
           "content_footer": {
             "$ref": "#/components/schemas/ContentFooterContentFooterComponent"
           },
+          "Sitemap": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SitemapsSitemapsComponent"
+            }
+          },
           "locale": {
             "type": "string"
           }
@@ -1254,6 +1260,12 @@
               },
               "content_footer": {
                 "$ref": "#/components/schemas/ContentFooterContentFooterComponent"
+              },
+              "Sitemap": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SitemapsSitemapsComponent"
+                }
               },
               "locale": {
                 "type": "string"
@@ -1396,6 +1408,12 @@
           },
           "content_footer": {
             "$ref": "#/components/schemas/ContentFooterContentFooterComponent"
+          },
+          "Sitemap": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SitemapsSitemapsComponent"
+            }
           },
           "createdAt": {
             "type": "string",
@@ -2198,51 +2216,31 @@
           },
           "copyright": {
             "type": "string"
+          }
+        }
+      },
+      "SitemapsSitemapsComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
           },
-          "sitemap": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "number"
-                }
-              }
-            }
-          },
-          "legal": {
+          "Link": {
             "type": "object",
             "properties": {
               "id": {
                 "type": "number"
               },
-              "label_legal": {
+              "label": {
                 "type": "string"
               },
-              "url_legal": {
-                "type": "string"
-              },
-              "label_confidentiality": {
-                "type": "string"
-              },
-              "url_confidentiality": {
+              "url": {
                 "type": "string"
               }
             }
           },
-          "cta": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
-              },
-              "title": {
-                "type": "string"
-              },
-              "content": {
-                "type": "string"
-              }
-            }
+          "categorie": {
+            "type": "string"
           }
         }
       },
