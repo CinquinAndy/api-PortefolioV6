@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_menu_item_menu_items",
+  "collectionName": "components_link_links",
   "info": {
-    "displayName": "link",
-    "icon": "code",
-    "description": ""
+    "displayName": "Link",
+    "icon": "crown"
   },
   "options": {},
   "attributes": {

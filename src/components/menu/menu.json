@@ -7,11 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "link": {
-      "displayName": "menu_item",
+    "Link": {
       "type": "component",
       "repeatable": false,
-      "component": "menu-item.menu-item"
+      "component": "link.link"
     }
   }
 }
