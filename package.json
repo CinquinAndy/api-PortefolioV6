@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@retikolo/drag-drop-content-types": "^1.3.9",
     "@strapi/plugin-documentation": "4.11.5",
     "@strapi/plugin-i18n": "4.11.5",
     "@strapi/plugin-users-permissions": "4.11.5",
