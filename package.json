@@ -15,9 +15,10 @@
     "@strapi/plugin-users-permissions": "4.11.5",
     "@strapi/strapi": "4.11.5",
     "better-sqlite3": "8.0.1",
-    "minio-for-strapi-v4": "1.0.7",
     "husky": "^8.0.3",
-    "lint-staged": "13.2.3"
+    "lint-staged": "13.2.3",
+    "minio-for-strapi-v4": "1.0.7",
+    "strapi-plugin-populate-deep": "^2.0.0"
   },
   "author": {
     "name": "Andy Cinquin"
