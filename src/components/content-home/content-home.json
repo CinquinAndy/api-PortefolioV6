@@ -2,7 +2,8 @@
   "collectionName": "components_content_home_content_homes",
   "info": {
     "displayName": "Content_home",
-    "icon": "question"
+    "icon": "question",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,6 +17,15 @@
       "type": "string"
     },
     "title_realisation": {
+      "type": "string"
+    },
+    "seo_canonical": {
+      "type": "string"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
       "type": "string"
     }
   }
