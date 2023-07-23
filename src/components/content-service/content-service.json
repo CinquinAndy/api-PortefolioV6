@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_service_content_services",
+  "info": {
+    "displayName": "Content_service",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "string"
+    },
+    "seo_canonical": {
+      "type": "string"
+    }
+  }
+}

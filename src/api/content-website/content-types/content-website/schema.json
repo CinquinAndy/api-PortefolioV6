@@ -79,6 +79,16 @@
         }
       },
       "component": "sitemaps.sitemaps"
+    },
+    "content_service": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "content-service.content-service"
     }
   }
 }
