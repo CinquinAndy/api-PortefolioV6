@@ -27,6 +27,11 @@
     },
     "seo_description": {
       "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link"
     }
   }
 }
