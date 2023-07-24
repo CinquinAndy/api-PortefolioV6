@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-23T14:17:32.704Z"
+    "x-generation-date": "2023-07-24T09:07:41.480Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -147,6 +147,9 @@
           "type": {
             "type": "string"
           },
+          "rank": {
+            "type": "integer"
+          },
           "locale": {
             "type": "string"
           }
@@ -215,6 +218,9 @@
               },
               "type": {
                 "type": "string"
+              },
+              "rank": {
+                "type": "integer"
               },
               "locale": {
                 "type": "string"
@@ -1132,6 +1138,9 @@
           },
           "type": {
             "type": "string"
+          },
+          "rank": {
+            "type": "integer"
           },
           "createdAt": {
             "type": "string",
@@ -2403,6 +2412,9 @@
           "type": {
             "type": "string"
           },
+          "rank": {
+            "type": "integer"
+          },
           "locale": {
             "type": "string"
           }
@@ -2485,6 +2497,9 @@
               },
               "type": {
                 "type": "string"
+              },
+              "rank": {
+                "type": "integer"
               },
               "locale": {
                 "type": "string"
@@ -3547,6 +3562,9 @@
                             }
                           }
                         },
+                        "rank": {
+                          "type": "integer"
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -3607,6 +3625,9 @@
           },
           "type": {
             "type": "string"
+          },
+          "rank": {
+            "type": "integer"
           },
           "createdAt": {
             "type": "string",
@@ -3715,6 +3736,9 @@
             ],
             "example": "string or id"
           },
+          "rank": {
+            "type": "integer"
+          },
           "locale": {
             "type": "string"
           }
@@ -3745,6 +3769,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "rank": {
+                "type": "integer"
               },
               "locale": {
                 "type": "string"
@@ -4497,6 +4524,9 @@
               }
             }
           },
+          "rank": {
+            "type": "integer"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -4603,6 +4633,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "rank": {
+                "type": "integer"
               }
             }
           }
@@ -5280,6 +5313,9 @@
                 }
               }
             }
+          },
+          "rank": {
+            "type": "integer"
           },
           "createdAt": {
             "type": "string",
