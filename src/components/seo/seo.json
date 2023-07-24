@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "quote"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "h1": {
+      "type": "string"
+    },
+    "canonical": {
+      "type": "string"
+    }
+  }
+}
