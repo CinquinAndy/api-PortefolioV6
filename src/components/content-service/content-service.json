@@ -2,18 +2,15 @@
   "collectionName": "components_content_service_content_services",
   "info": {
     "displayName": "Content_service",
-    "icon": "alien"
+    "icon": "alien",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "seo_title": {
-      "type": "string"
-    },
-    "seo_description": {
-      "type": "string"
-    },
-    "seo_canonical": {
-      "type": "string"
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
     }
   }
 }
