@@ -1,5 +1,11 @@
-module.exports = ({ env }) => ({
+module.exports = ({env}) => ({
   // ...
+  'import-export-entries': {
+    enabled: true,
+    config: {
+      // See `Config` section.
+    },
+  },
   upload: {
     config: {
       provider: "minio-for-strapi-v4",
