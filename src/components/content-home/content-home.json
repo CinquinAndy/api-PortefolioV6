@@ -32,6 +32,9 @@
       "type": "component",
       "repeatable": true,
       "component": "link.link"
+    },
+    "title_vertical_left_bottom": {
+      "type": "string"
     }
   }
 }

@@ -23,6 +23,12 @@
     },
     "copyright": {
       "type": "text"
+    },
+    "title_sitemap": {
+      "type": "string"
+    },
+    "title_legals": {
+      "type": "string"
     }
   }
 }
