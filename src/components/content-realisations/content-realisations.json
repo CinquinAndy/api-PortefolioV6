@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_realisations_content_realisations",
+  "info": {
+    "displayName": "Content_realisations",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "content_realisations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}
