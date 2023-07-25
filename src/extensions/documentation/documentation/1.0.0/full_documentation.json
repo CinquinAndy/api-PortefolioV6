@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-24T15:03:24.586Z"
+    "x-generation-date": "2023-07-25T11:24:09.023Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1273,8 +1273,11 @@
           "content_service": {
             "$ref": "#/components/schemas/ContentServiceContentServiceComponent"
           },
-          "Content_realisations": {
+          "content_realisations": {
             "$ref": "#/components/schemas/ContentRealisationsContentRealisationsComponent"
+          },
+          "content_blog": {
+            "$ref": "#/components/schemas/ContentBlogContentBlogComponent"
           },
           "locale": {
             "type": "string"
@@ -1317,8 +1320,11 @@
               "content_service": {
                 "$ref": "#/components/schemas/ContentServiceContentServiceComponent"
               },
-              "Content_realisations": {
+              "content_realisations": {
                 "$ref": "#/components/schemas/ContentRealisationsContentRealisationsComponent"
+              },
+              "content_blog": {
+                "$ref": "#/components/schemas/ContentBlogContentBlogComponent"
               },
               "locale": {
                 "type": "string"
@@ -1471,8 +1477,11 @@
           "content_service": {
             "$ref": "#/components/schemas/ContentServiceContentServiceComponent"
           },
-          "Content_realisations": {
+          "content_realisations": {
             "$ref": "#/components/schemas/ContentRealisationsContentRealisationsComponent"
+          },
+          "content_blog": {
+            "$ref": "#/components/schemas/ContentBlogContentBlogComponent"
           },
           "createdAt": {
             "type": "string",
@@ -2383,7 +2392,35 @@
           "id": {
             "type": "number"
           },
-          "content_realisations": {
+          "seo": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "h1": {
+                "type": "string"
+              },
+              "canonical": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "ContentBlogContentBlogComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "seo": {
             "type": "object",
             "properties": {
               "id": {

@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_content_realisations_content_realisations",
+  "collectionName": "components_content_blog_content_blogs",
   "info": {
-    "displayName": "Content_realisations",
-    "icon": "crown",
-    "description": ""
+    "displayName": "Content-blog",
+    "icon": "envelop"
   },
   "options": {},
   "attributes": {

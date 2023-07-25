@@ -90,7 +90,7 @@
       },
       "component": "content-service.content-service"
     },
-    "Content_realisations": {
+    "content_realisations": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -99,6 +99,17 @@
         }
       },
       "component": "content-realisations.content-realisations"
+    },
+    "content_blog": {
+      "displayName": "Content-blog",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "content-blog.content-blog"
     }
   }
 }
