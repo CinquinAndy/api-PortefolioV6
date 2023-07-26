@@ -12,6 +12,11 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.link"
     }
   }
 }
