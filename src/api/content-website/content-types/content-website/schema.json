@@ -110,6 +110,16 @@
         }
       },
       "component": "content-blog.content-blog"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "cta.cta"
     }
   }
 }

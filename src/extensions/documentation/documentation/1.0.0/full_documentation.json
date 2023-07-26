@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-26T15:43:59.473Z"
+    "x-generation-date": "2023-07-26T15:47:31.786Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1279,6 +1279,9 @@
           "content_blog": {
             "$ref": "#/components/schemas/ContentBlogContentBlogComponent"
           },
+          "cta": {
+            "$ref": "#/components/schemas/CtaCtaComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -1325,6 +1328,9 @@
               },
               "content_blog": {
                 "$ref": "#/components/schemas/ContentBlogContentBlogComponent"
+              },
+              "cta": {
+                "$ref": "#/components/schemas/CtaCtaComponent"
               },
               "locale": {
                 "type": "string"
@@ -1482,6 +1488,9 @@
           },
           "content_blog": {
             "$ref": "#/components/schemas/ContentBlogContentBlogComponent"
+          },
+          "cta": {
+            "$ref": "#/components/schemas/CtaCtaComponent"
           },
           "createdAt": {
             "type": "string",
@@ -2436,6 +2445,34 @@
                 "type": "string"
               },
               "canonical": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "CtaCtaComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "link": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "label": {
+                "type": "string"
+              },
+              "url": {
                 "type": "string"
               }
             }
