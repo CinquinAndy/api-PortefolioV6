@@ -11,6 +11,20 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
+    },
+    "title_galery": {
+      "type": "string"
+    },
+    "title_content": {
+      "type": "string"
+    },
+    "title_technology": {
+      "type": "string"
+    },
+    "btn_galery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.link"
     }
   }
 }
