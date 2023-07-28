@@ -25,6 +25,9 @@
       "type": "component",
       "repeatable": false,
       "component": "link.link"
+    },
+    "title_links": {
+      "type": "string"
     }
   }
 }
