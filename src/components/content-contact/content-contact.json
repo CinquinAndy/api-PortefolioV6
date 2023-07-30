@@ -51,10 +51,10 @@
       "repeatable": false,
       "component": "seo.seo"
     },
-    "toast_success": {
+    "toast_error": {
       "type": "string"
     },
-    "toast_error": {
+    "toast_success": {
       "type": "string"
     }
   }
