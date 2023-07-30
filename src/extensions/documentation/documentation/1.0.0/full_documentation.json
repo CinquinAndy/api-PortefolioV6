@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-28T11:18:10.005Z"
+    "x-generation-date": "2023-07-30T20:43:19.146Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1282,6 +1282,9 @@
           "cta": {
             "$ref": "#/components/schemas/CtaCtaComponent"
           },
+          "content_contact": {
+            "$ref": "#/components/schemas/ContentContactContentContactComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -1331,6 +1334,9 @@
               },
               "cta": {
                 "$ref": "#/components/schemas/CtaCtaComponent"
+              },
+              "content_contact": {
+                "$ref": "#/components/schemas/ContentContactContentContactComponent"
               },
               "locale": {
                 "type": "string"
@@ -1491,6 +1497,9 @@
           },
           "cta": {
             "$ref": "#/components/schemas/CtaCtaComponent"
+          },
+          "content_contact": {
+            "$ref": "#/components/schemas/ContentContactContentContactComponent"
           },
           "createdAt": {
             "type": "string",
@@ -2502,6 +2511,53 @@
                 "type": "string"
               }
             }
+          }
+        }
+      },
+      "ContentContactContentContactComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "title_name": {
+            "type": "string"
+          },
+          "title_email": {
+            "type": "string"
+          },
+          "title_phone": {
+            "type": "string"
+          },
+          "title_company": {
+            "type": "string"
+          },
+          "title_content": {
+            "type": "string"
+          },
+          "error_name": {
+            "type": "string"
+          },
+          "error_email": {
+            "type": "string"
+          },
+          "error_phone": {
+            "type": "string"
+          },
+          "error_company": {
+            "type": "string"
+          },
+          "error_content": {
+            "type": "string"
+          },
+          "informative_message": {
+            "type": "string"
+          },
+          "btn_send": {
+            "type": "string"
           }
         }
       },

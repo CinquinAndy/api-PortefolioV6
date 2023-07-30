@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_content_contact_content_contacts",
+  "info": {
+    "displayName": "Content-contact",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title_name": {
+      "type": "string"
+    },
+    "title_email": {
+      "type": "string"
+    },
+    "title_phone": {
+      "type": "string"
+    },
+    "title_company": {
+      "type": "string"
+    },
+    "title_content": {
+      "type": "string"
+    },
+    "error_name": {
+      "type": "string"
+    },
+    "error_email": {
+      "type": "string"
+    },
+    "error_phone": {
+      "type": "string"
+    },
+    "error_company": {
+      "type": "string"
+    },
+    "error_content": {
+      "type": "string"
+    },
+    "informative_message": {
+      "type": "string"
+    },
+    "btn_send": {
+      "type": "string"
+    }
+  }
+}

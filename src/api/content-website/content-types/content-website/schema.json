@@ -120,6 +120,17 @@
         }
       },
       "component": "cta.cta"
+    },
+    "content_contact": {
+      "displayName": "Content-contact",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "content-contact.content-contact"
     }
   }
 }
