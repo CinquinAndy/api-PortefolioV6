@@ -50,6 +50,12 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
+    },
+    "toast_success": {
+      "type": "string"
+    },
+    "toast_error": {
+      "type": "string"
     }
   }
 }
