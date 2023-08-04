@@ -177,20 +177,6 @@
         }
       },
       "component": "content-cgu.content-cgu"
-    },
-    "Content_apropos": {
-      "displayName": "Content-apropos",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        },
-        "translate": {
-          "translate": "translate"
-        }
-      },
-      "component": "content-apropos.content-apropos"
     }
   }
 }
