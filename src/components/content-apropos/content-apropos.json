@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_apropos_content_apropos",
+  "info": {
+    "displayName": "Content-apropos",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}
