@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-08-04T19:33:19.300Z"
+    "x-generation-date": "2023-08-04T19:36:43.979Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -92,8 +92,8 @@
         ],
         "type": "object",
         "properties": {
-          "seo": {
-            "$ref": "#/components/schemas/SeoSeoComponent"
+          "content": {
+            "type": "string"
           },
           "locale": {
             "type": "string"
@@ -109,8 +109,8 @@
           "data": {
             "type": "object",
             "properties": {
-              "seo": {
-                "$ref": "#/components/schemas/SeoSeoComponent"
+              "content": {
+                "type": "string"
               },
               "locale": {
                 "type": "string"
@@ -236,8 +236,8 @@
       "APropos": {
         "type": "object",
         "properties": {
-          "seo": {
-            "$ref": "#/components/schemas/SeoSeoComponent"
+          "content": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -571,26 +571,6 @@
           },
           "meta": {
             "type": "object"
-          }
-        }
-      },
-      "SeoSeoComponent": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "title": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          },
-          "h1": {
-            "type": "string"
-          },
-          "canonical": {
-            "type": "string"
           }
         }
       },
