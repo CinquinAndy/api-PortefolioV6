@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_cgu_content_cgus",
+  "info": {
+    "displayName": "Content_CGU",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}
