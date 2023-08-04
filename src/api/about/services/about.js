@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * a-propos service
+ * about service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::a-propos.a-propos');
+module.exports = createCoreService('api::about.about');

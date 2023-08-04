@@ -1,5 +1,5 @@
 {
-  "/a-propos": {
+  "/about": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AProposResponse"
+                "$ref": "#/components/schemas/AboutResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "A-propos"
+        "About"
       ],
       "parameters": [
         {
@@ -169,7 +169,7 @@
           }
         }
       ],
-      "operationId": "get/a-propos"
+      "operationId": "get/about"
     },
     "put": {
       "responses": {
@@ -178,7 +178,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AProposResponse"
+                "$ref": "#/components/schemas/AboutResponse"
               }
             }
           }
@@ -235,16 +235,16 @@
         }
       },
       "tags": [
-        "A-propos"
+        "About"
       ],
       "parameters": [],
-      "operationId": "put/a-propos",
+      "operationId": "put/about",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/AProposRequest"
+              "$ref": "#/components/schemas/AboutRequest"
             }
           }
         }
@@ -315,13 +315,13 @@
         }
       },
       "tags": [
-        "A-propos"
+        "About"
       ],
       "parameters": [],
-      "operationId": "delete/a-propos"
+      "operationId": "delete/about"
     }
   },
-  "/a-propos/localizations": {
+  "/about/localizations": {
     "post": {
       "responses": {
         "200": {
@@ -329,7 +329,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AProposLocalizationResponse"
+                "$ref": "#/components/schemas/AboutLocalizationResponse"
               }
             }
           }
@@ -386,16 +386,16 @@
         }
       },
       "tags": [
-        "A-propos"
+        "About"
       ],
       "parameters": [],
-      "operationId": "post/a-propos/localizations",
+      "operationId": "post/about/localizations",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/AProposLocalizationRequest"
+              "$ref": "#/components/schemas/AboutLocalizationRequest"
             }
           }
         }
