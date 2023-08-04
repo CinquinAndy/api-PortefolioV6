@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-08-04T19:41:28.159Z"
+    "x-generation-date": "2023-08-04T19:41:42.406Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2260,9 +2260,6 @@
           "content_cgu": {
             "$ref": "#/components/schemas/ContentCguContentCguComponent"
           },
-          "Content_apropos": {
-            "$ref": "#/components/schemas/ContentAproposContentAproposComponent"
-          },
           "locale": {
             "type": "string"
           }
@@ -2318,9 +2315,6 @@
               },
               "content_cgu": {
                 "$ref": "#/components/schemas/ContentCguContentCguComponent"
-              },
-              "Content_apropos": {
-                "$ref": "#/components/schemas/ContentAproposContentAproposComponent"
               },
               "locale": {
                 "type": "string"
@@ -2487,9 +2481,6 @@
           },
           "content_cgu": {
             "$ref": "#/components/schemas/ContentCguContentCguComponent"
-          },
-          "Content_apropos": {
-            "$ref": "#/components/schemas/ContentAproposContentAproposComponent"
           },
           "createdAt": {
             "type": "string",
@@ -3577,34 +3568,6 @@
         }
       },
       "ContentCguContentCguComponent": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "seo": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "number"
-              },
-              "title": {
-                "type": "string"
-              },
-              "description": {
-                "type": "string"
-              },
-              "h1": {
-                "type": "string"
-              },
-              "canonical": {
-                "type": "string"
-              }
-            }
-          }
-        }
-      },
-      "ContentAproposContentAproposComponent": {
         "type": "object",
         "properties": {
           "id": {
