@@ -4,7 +4,8 @@
   "info": {
     "singularName": "a-propos",
     "pluralName": "a-proposs",
-    "displayName": "a-propos"
+    "displayName": "a-propos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,9 +16,7 @@
     }
   },
   "attributes": {
-    "seo": {
-      "type": "component",
-      "repeatable": false,
+    "content": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -26,7 +25,7 @@
           "translate": "translate"
         }
       },
-      "component": "seo.seo"
+      "type": "richtext"
     }
   }
 }
