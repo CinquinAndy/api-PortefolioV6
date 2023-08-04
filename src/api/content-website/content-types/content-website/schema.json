@@ -177,6 +177,19 @@
         }
       },
       "component": "content-cgu.content-cgu"
+    },
+    "content_about": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "content-about.content-about"
     }
   }
 }
