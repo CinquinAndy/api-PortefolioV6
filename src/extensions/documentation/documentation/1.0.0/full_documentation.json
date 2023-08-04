@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-08-04T19:41:42.406Z"
+    "x-generation-date": "2023-08-04T19:42:48.957Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2260,6 +2260,9 @@
           "content_cgu": {
             "$ref": "#/components/schemas/ContentCguContentCguComponent"
           },
+          "content_about": {
+            "$ref": "#/components/schemas/ContentAboutContentAboutComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -2315,6 +2318,9 @@
               },
               "content_cgu": {
                 "$ref": "#/components/schemas/ContentCguContentCguComponent"
+              },
+              "content_about": {
+                "$ref": "#/components/schemas/ContentAboutContentAboutComponent"
               },
               "locale": {
                 "type": "string"
@@ -2481,6 +2487,9 @@
           },
           "content_cgu": {
             "$ref": "#/components/schemas/ContentCguContentCguComponent"
+          },
+          "content_about": {
+            "$ref": "#/components/schemas/ContentAboutContentAboutComponent"
           },
           "createdAt": {
             "type": "string",
@@ -3568,6 +3577,34 @@
         }
       },
       "ContentCguContentCguComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "seo": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "h1": {
+                "type": "string"
+              },
+              "canonical": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "ContentAboutContentAboutComponent": {
         "type": "object",
         "properties": {
           "id": {
