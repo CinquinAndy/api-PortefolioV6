@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "a_proposs",
+  "info": {
+    "singularName": "a-propos",
+    "pluralName": "a-proposs",
+    "displayName": "a-propos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "seo.seo"
+    }
+  }
+}
