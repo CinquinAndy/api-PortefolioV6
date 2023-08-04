@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_about_content_abouts",
+  "info": {
+    "displayName": "Content-about",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}
