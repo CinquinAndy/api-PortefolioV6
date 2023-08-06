@@ -4,7 +4,8 @@
   "info": {
     "singularName": "not-found",
     "pluralName": "not-founds",
-    "displayName": "NotFound"
+    "displayName": "NotFound",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,17 +16,6 @@
     }
   },
   "attributes": {
-    "content": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        },
-        "translate": {
-          "translate": "translate"
-        }
-      },
-      "type": "string"
-    },
     "link": {
       "type": "component",
       "repeatable": false,
@@ -38,6 +28,17 @@
         }
       },
       "component": "link.link"
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "richtext"
     }
   }
 }
