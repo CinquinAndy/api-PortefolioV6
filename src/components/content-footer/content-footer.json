@@ -21,14 +21,14 @@
     "content": {
       "type": "richtext"
     },
-    "copyright": {
-      "type": "text"
-    },
     "title_sitemap": {
       "type": "string"
     },
     "title_legals": {
       "type": "string"
+    },
+    "content_signature": {
+      "type": "richtext"
     }
   }
 }
