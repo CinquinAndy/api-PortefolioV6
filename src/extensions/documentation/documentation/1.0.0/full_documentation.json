@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-08-06T06:10:11.030Z"
+    "x-generation-date": "2023-08-06T06:12:24.585Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2259,6 +2259,9 @@
           "content_about": {
             "$ref": "#/components/schemas/ContentAboutContentAboutComponent"
           },
+          "content_notfound": {
+            "$ref": "#/components/schemas/ContentNotfoundContentNotfoundComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -2317,6 +2320,9 @@
               },
               "content_about": {
                 "$ref": "#/components/schemas/ContentAboutContentAboutComponent"
+              },
+              "content_notfound": {
+                "$ref": "#/components/schemas/ContentNotfoundContentNotfoundComponent"
               },
               "locale": {
                 "type": "string"
@@ -2486,6 +2492,9 @@
           },
           "content_about": {
             "$ref": "#/components/schemas/ContentAboutContentAboutComponent"
+          },
+          "content_notfound": {
+            "$ref": "#/components/schemas/ContentNotfoundContentNotfoundComponent"
           },
           "createdAt": {
             "type": "string",
@@ -3601,6 +3610,34 @@
         }
       },
       "ContentAboutContentAboutComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "seo": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "h1": {
+                "type": "string"
+              },
+              "canonical": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "ContentNotfoundContentNotfoundComponent": {
         "type": "object",
         "properties": {
           "id": {
