@@ -190,6 +190,20 @@
         }
       },
       "component": "content-about.content-about"
+    },
+    "content_notfound": {
+      "displayName": "Content-notfound",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "content-notfound.content-notfound"
     }
   }
 }

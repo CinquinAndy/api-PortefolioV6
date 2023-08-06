@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_notfound_content_notfounds",
+  "info": {
+    "displayName": "Content-notfound",
+    "icon": "cup"
+  },
+  "options": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}
