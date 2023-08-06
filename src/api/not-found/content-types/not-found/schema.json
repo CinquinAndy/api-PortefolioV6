@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "not_founds",
+  "info": {
+    "singularName": "not-found",
+    "pluralName": "not-founds",
+    "displayName": "NotFound"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "link.link"
+    }
+  }
+}
