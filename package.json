@@ -15,7 +15,7 @@
     "@strapi/plugin-i18n": "4.11.5",
     "@strapi/plugin-users-permissions": "4.11.5",
     "@strapi/strapi": "4.11.5",
-    "better-sqlite3": "8.0.1",
+    "better-sqlite3": "8.7.0",
     "husky": "^8.0.3",
     "lint-staged": "13.2.3",
     "minio-for-strapi-v4": "1.0.7",
