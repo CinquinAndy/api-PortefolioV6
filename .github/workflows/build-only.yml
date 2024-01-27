@@ -15,22 +15,26 @@ env:
   S3_ENDPOINT: "localhost"
   S3_SSL: false
   S3_PORT: 9000
+  DEEPL_API_KEY: ""
+  DEEPL_API_URL: ""
 
 jobs:
   just-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+      - name: Use and cache Node 20.x Yarn
+        uses: actions/setup-node@v4
+        with:
+          cache: 'yarn'
+          node-version: 20.x
       - name: Yarn install and build
         run: |
-          yarn install
+          yarn install --frozen-lockfile
           yarn build
-      - name: Unit Test
-        run: |
-          yarn test
       - name: Try Building image
-        uses: docker/build-push-action@v4
+        uses: docker/build-push-action@v5
         with:
           context: .
           push: false
