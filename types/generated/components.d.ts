@@ -104,8 +104,13 @@ export interface ContentHomeContentHome extends Schema.Component {
     title_blog: Attribute.String;
     title_realisation: Attribute.String;
     link: Attribute.Component<'link.link', true>;
-    title_vertical_left_bottom: Attribute.String;
     seo: Attribute.Component<'seo.seo'>;
+    title_vertical_left_1: Attribute.String;
+    title_vertical_left_2: Attribute.String;
+    title_vertical_left_3: Attribute.String;
+    title_vertical_left_4: Attribute.String;
+    title_vertical_left_5: Attribute.String;
+    title_vertical_left_6: Attribute.String;
   };
 }
 
