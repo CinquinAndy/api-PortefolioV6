@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-08-06T06:54:34.941Z"
+    "x-generation-date": "2024-01-27T17:03:16.979Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -341,6 +341,7 @@
                                                   "action": {
                                                     "type": "string"
                                                   },
+                                                  "actionParameters": {},
                                                   "subject": {
                                                     "type": "string"
                                                   },
@@ -538,7 +539,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/About"
+                  "$ref": "#/components/schemas/AboutListResponseDataItemLocalized"
                 }
               }
             }
@@ -1169,6 +1170,7 @@
                                                                                         "action": {
                                                                                           "type": "string"
                                                                                         },
+                                                                                        "actionParameters": {},
                                                                                         "subject": {
                                                                                           "type": "string"
                                                                                         },
@@ -1678,7 +1680,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Article"
+                  "$ref": "#/components/schemas/ArticleListResponseDataItemLocalized"
                 }
               }
             }
@@ -1979,6 +1981,7 @@
                                                   "action": {
                                                     "type": "string"
                                                   },
+                                                  "actionParameters": {},
                                                   "subject": {
                                                     "type": "string"
                                                   },
@@ -2176,7 +2179,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Cgu"
+                  "$ref": "#/components/schemas/CguListResponseDataItemLocalized"
                 }
               }
             }
@@ -2544,7 +2547,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/ContentWebsite"
+                  "$ref": "#/components/schemas/ContentWebsiteListResponseDataItemLocalized"
                 }
               }
             }
@@ -2679,9 +2682,6 @@
               }
             }
           },
-          "title_vertical_left_bottom": {
-            "type": "string"
-          },
           "seo": {
             "type": "object",
             "properties": {
@@ -2701,6 +2701,24 @@
                 "type": "string"
               }
             }
+          },
+          "title_vertical_left_1": {
+            "type": "string"
+          },
+          "title_vertical_left_2": {
+            "type": "string"
+          },
+          "title_vertical_left_3": {
+            "type": "string"
+          },
+          "title_vertical_left_4": {
+            "type": "string"
+          },
+          "title_vertical_left_5": {
+            "type": "string"
+          },
+          "title_vertical_left_6": {
+            "type": "string"
           }
         }
       },
@@ -3031,6 +3049,7 @@
                                                                                         "action": {
                                                                                           "type": "string"
                                                                                         },
+                                                                                        "actionParameters": {},
                                                                                         "subject": {
                                                                                           "type": "string"
                                                                                         },
@@ -3929,6 +3948,7 @@
                                                   "action": {
                                                     "type": "string"
                                                   },
+                                                  "actionParameters": {},
                                                   "subject": {
                                                     "type": "string"
                                                   },
@@ -4126,7 +4146,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/NotFound"
+                  "$ref": "#/components/schemas/NotFoundListResponseDataItemLocalized"
                 }
               }
             }
@@ -4782,6 +4802,7 @@
                                                                                         "action": {
                                                                                           "type": "string"
                                                                                         },
+                                                                                        "actionParameters": {},
                                                                                         "subject": {
                                                                                           "type": "string"
                                                                                         },
@@ -5502,7 +5523,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Realisation"
+                  "$ref": "#/components/schemas/RealisationListResponseDataItemLocalized"
                 }
               }
             }
@@ -6045,6 +6066,7 @@
                                                                                         "action": {
                                                                                           "type": "string"
                                                                                         },
+                                                                                        "actionParameters": {},
                                                                                         "subject": {
                                                                                           "type": "string"
                                                                                         },
@@ -6400,7 +6422,7 @@
               "data": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/Service"
+                  "$ref": "#/components/schemas/ServiceListResponseDataItemLocalized"
                 }
               }
             }
@@ -6835,6 +6857,7 @@
                                                                                         "action": {
                                                                                           "type": "string"
                                                                                         },
+                                                                                        "actionParameters": {},
                                                                                         "subject": {
                                                                                           "type": "string"
                                                                                         },
@@ -11655,7 +11678,7 @@
         },
         "responses": {
           "200": {
-            "description": "Successfull registration",
+            "description": "Successful registration",
             "content": {
               "application/json": {
                 "schema": {

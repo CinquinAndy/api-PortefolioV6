@@ -24,13 +24,28 @@
       "repeatable": true,
       "component": "link.link"
     },
-    "title_vertical_left_bottom": {
-      "type": "string"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
       "component": "seo.seo"
+    },
+    "title_vertical_left_1": {
+      "type": "string"
+    },
+    "title_vertical_left_2": {
+      "type": "string"
+    },
+    "title_vertical_left_3": {
+      "type": "string"
+    },
+    "title_vertical_left_4": {
+      "type": "string"
+    },
+    "title_vertical_left_5": {
+      "type": "string"
+    },
+    "title_vertical_left_6": {
+      "type": "string"
     }
   }
 }
