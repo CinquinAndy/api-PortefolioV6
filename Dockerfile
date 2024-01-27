@@ -1,11 +1,10 @@
-FROM node:18-bullseye
+FROM node:20-bullseye
 
 WORKDIR /app
 
-COPY ./package.json ./
+COPY package.json yarn.lock ./
 
-RUN yarn install --production
-RUN yarn add pg
+RUN yarn install --production --frozen-lockfile
 
 COPY . .
 
