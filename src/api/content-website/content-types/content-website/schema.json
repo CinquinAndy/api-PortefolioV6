@@ -204,6 +204,17 @@
         }
       },
       "component": "content-notfound.content-notfound"
+    },
+    "content_popup": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "string"
     }
   }
 }
