@@ -20,6 +20,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "type": "string"
@@ -28,6 +31,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "type": "richtext"
@@ -36,6 +42,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "type": "string"
@@ -44,6 +53,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "type": "string"
@@ -52,6 +64,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "type": "string"
@@ -60,6 +75,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "type": "text"
@@ -77,6 +95,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       }
     },
@@ -93,6 +114,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       }
     },
@@ -102,6 +126,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "component": "link.link"
@@ -110,6 +137,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "type": "string"
@@ -118,6 +148,9 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        },
+        "translate": {
+          "translate": "translate"
         }
       },
       "type": "string"
@@ -129,6 +162,19 @@
         }
       },
       "type": "integer"
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "tag.tag"
     }
   }
 }

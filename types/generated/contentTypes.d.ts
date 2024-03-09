@@ -896,11 +896,17 @@ export interface ApiArticleArticle extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     content: Attribute.RichText &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     seo_title: Attribute.String &
@@ -908,11 +914,17 @@ export interface ApiArticleArticle extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     seo_description: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     slug: Attribute.String &
@@ -920,11 +932,17 @@ export interface ApiArticleArticle extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     excerpt: Attribute.Text &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     image_presentation: Attribute.Media &
@@ -932,11 +950,17 @@ export interface ApiArticleArticle extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     galery: Attribute.Media &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     links: Attribute.Component<'link.link', true> &
@@ -944,11 +968,17 @@ export interface ApiArticleArticle extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     subtitle: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     type: Attribute.String &
@@ -956,11 +986,23 @@ export interface ApiArticleArticle extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     rank: Attribute.Integer &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+      }>;
+    tags: Attribute.Component<'tag.tag', true> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     createdAt: Attribute.DateTime;
