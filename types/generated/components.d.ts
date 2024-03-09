@@ -235,6 +235,17 @@ export interface SocialsSocials extends Schema.Component {
   };
 }
 
+export interface TagTag extends Schema.Component {
+  collectionName: 'components_tag_tags';
+  info: {
+    displayName: 'Tag';
+    icon: 'write';
+  };
+  attributes: {
+    name: Attribute.String;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
@@ -254,6 +265,7 @@ declare module '@strapi/types' {
       'seo.seo': SeoSeo;
       'sitemaps.sitemaps': SitemapsSitemaps;
       'socials.socials': SocialsSocials;
+      'tag.tag': TagTag;
     }
   }
 }
