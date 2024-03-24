@@ -8,9 +8,12 @@ module.exports = ({env}) => {
             config: {
                 cors: {
                     // this is for my local obsidian plugin, export one note to strapi, as an article
-                    origin: ['app://obsidian.md'],
-                    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'HEAD'],
-                    headers: ['Content-Type', 'Authorization'],
+                    // origin: ['app://obsidian.md'],
+                    // methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'HEAD'],
+                    // headers: ['Content-Type', 'Authorization'],
+                    origin: ["*"],
+                    methods: ["*"],
+                    headers: ["*"]
                 },
                 contentSecurityPolicy: {
                     useDefaults: true,
