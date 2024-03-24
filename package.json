@@ -23,7 +23,6 @@
     "@strapi/plugin-i18n": "4.21.0",
     "@strapi/plugin-users-permissions": "4.21.0",
     "@strapi/strapi": "4.21.0",
-    "cors": "^2.8.5",
     "lodash": "4.17.21",
     "minio-for-strapi-v4": "1.0.7",
     "pg": "8.11.3",

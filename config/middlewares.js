@@ -19,7 +19,7 @@ module.exports = ({env}) => {
             },
         },
         {
-            name: 'cors',
+            name: 'strapi::cors',
             config: {
                 // this is for my local obsidian plugin, export one note to strapi, as an article
                 // origin: ['app://obsidian.md'],
