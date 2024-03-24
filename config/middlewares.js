@@ -7,8 +7,9 @@ module.exports = ({env}) => {
             name: "strapi::security",
             config: {
                 cors: {
-                    origin: ['*'], //allow all origins
-                    headers: ['*'], //allow all headers
+                    origin: ['app://obsidian.md'],
+                    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'HEAD'],
+                    headers: ['Content-Type', 'Authorization'],
                 },
                 contentSecurityPolicy: {
                     useDefaults: true,
