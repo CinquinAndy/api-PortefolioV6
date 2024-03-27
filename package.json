@@ -32,7 +32,8 @@
     "strapi-plugin-populate-deep": "3.0.1",
     "strapi-plugin-translate": "1.2.4",
     "strapi-provider-translate-deepl": "1.1.12",
-    "styled-components": "6.1.8"
+    "styled-components": "^5.2.1",
+    "image-analyzer": "file:./src/plugins/image-analyzer"
   },
   "author": {
     "name": "Andy Cinquin"

@@ -34,5 +34,9 @@ module.exports = ({env}) => ({
         }
       },
     }
+  },
+  'image-analyzer': {
+    enabled: true,
+    resolve: './src/plugins/image-analyzer'
   }
 });
