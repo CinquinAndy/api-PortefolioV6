@@ -1,13 +1,8 @@
 module.exports = {
-  async uploadImage(ctx) {
-    // Logique pour uploader et analyser une image
+  async index(ctx) {
+    ctx.send({
+      message: 'Welcome to the image-analyzer plugin',
+    });
   },
-
-  async getImages(ctx) {
-    // Logique pour récupérer toutes les images
-  },
-
-  async updateImage(ctx) {
-    // Logique pour mettre à jour une image spécifique
-  },
+  // Add other controllers here
 };

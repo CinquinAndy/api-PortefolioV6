@@ -1,0 +1,4 @@
+{
+  "image-analyzer.plugin.name": "Image Analyzer",
+  "image-analyzer.plugin.description": "Analyze images using OpenAI"
+}
