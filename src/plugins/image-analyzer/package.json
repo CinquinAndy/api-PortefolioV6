@@ -1,0 +1,10 @@
+{
+  "name": "image-analyzer",
+  "version": "0.1.0",
+  "description": "A Strapi plugin for analyzing images using OpenAI",
+  "strapi": {
+    "name": "image-analyzer",
+    "description": "A Strapi plugin for analyzing images using OpenAI",
+    "kind": "plugin"
+  }
+}
