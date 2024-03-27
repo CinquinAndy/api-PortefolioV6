@@ -1,10 +1,10 @@
 {
   "name": "add-auto-alternative-text-to-images-ai-enhanced",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is the description of the plugin.",
   "strapi": {
     "name": "add-auto-alternative-text-to-images-ai-enhanced",
-    "description": "Description of Add Auto Alternative Text To Images Ai Enhanced plugin",
+    "description": "Add Auto Alternative Text To Images Ai Enhanced plugin",
     "kind": "plugin",
     "displayName": "Add Auto Alternative Text To Images Ai Enhanced"
   },
@@ -12,6 +12,8 @@
     "@strapi/design-system": "^1.6.3",
     "@strapi/helper-plugin": "^4.6.0",
     "@strapi/icons": "^1.6.3",
+    "@strapi/utils": "^4.21.0",
+    "axios": "^1.6.8",
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
@@ -27,11 +29,11 @@
     "styled-components": "^5.2.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Cinquin Andy"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "Cinquin Andy"
     }
   ],
   "engines": {
