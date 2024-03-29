@@ -12,6 +12,9 @@ module.exports = ({env}) => ({
       },
     },
   },
+  'auto-alt-caption-title-on-images-ai-enhanced': {
+    enabled: true,
+  },
   translate: {
     enabled: true,
     config: {
