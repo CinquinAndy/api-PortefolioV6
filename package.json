@@ -29,7 +29,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "^5.3.4",
-    "strapi-plugin-auto-alt-caption-title-on-images-ai-enhanced": "1.0.17",
+    "strapi-plugin-auto-alt-caption-title-on-images-ai-enhanced": "1.0.18",
     "strapi-plugin-populate-deep": "3.0.1",
     "strapi-plugin-translate": "1.2.4",
     "strapi-provider-translate-deepl": "1.1.12",
