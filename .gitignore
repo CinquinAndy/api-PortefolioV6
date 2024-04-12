@@ -113,6 +113,7 @@ exports
 dist
 build
 .strapi-updater.json
+bun.lockb
 
 ############################
 #.cache
