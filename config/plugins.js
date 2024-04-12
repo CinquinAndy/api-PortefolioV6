@@ -15,6 +15,9 @@ module.exports = ({env}) => ({
   'auto-alt-caption-title-on-images-ai-enhanced': {
     enabled: true,
   },
+  'drag-drop-content-types': {
+    enabled: true
+  },
   translate: {
     enabled: true,
     config: {
