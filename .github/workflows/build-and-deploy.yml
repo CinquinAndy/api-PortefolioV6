@@ -5,8 +5,8 @@ on:
     branches: [ "main" ]
 
 env:
-  S3_ENDPOINT: "83bfc104d4a2e71a5d8210f2364ee9e4.r2.cloudflarestorage.com"
-  S3_ENDPOINT_PUBLIC: "r2-andycinquin.andy-cinquin.fr"
+  S3_ENDPOINT: "https://83bfc104d4a2e71a5d8210f2364ee9e4.r2.cloudflarestorage.com"
+  S3_ENDPOINT_PUBLIC: "https://r2-andycinquin.andy-cinquin.fr"
 
 jobs:
   build-and-push:
