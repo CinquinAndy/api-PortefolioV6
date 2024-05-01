@@ -11,8 +11,18 @@ module.exports = ({env}) => {
                     useDefaults: true,
                     directives: {
                         "connect-src": ["'self'", "https:"],
-                        "img-src": ["'self'", "data:", "blob:", s3url.host],
-                        "media-src": ["'self'", "data:", "blob:", s3url.host],
+                        "img-src": [
+                            "'self'",
+                            "data:",
+                            "blob:",
+                            env("S3_ENDPOINT_PUBLIC").replace(/^https?:\/\//, ""),
+                        ],
+                        "media-src": [
+                            "'self'",
+                            "data:",
+                            "blob:",
+                            env("S3_ENDPOINT_PUBLIC").replace(/^https?:\/\//, ""),
+                        ],
                         upgradeInsecureRequests: null,
                     },
                 },

@@ -50,8 +50,8 @@ yarn develop
 | `DATABASE_NAME`     | Set the database name                         |
 | `DATABASE_USERNAME` | Set the database username                     |
 | `DATABASE_PASSWORD` | Set the database password                     |
-| `S3_ENDPOINT`       | Minio endpoint                                |
-| `S3_PORT`           | Minio port                                    |
-| `S3_SSL`            | Minio ssl enable                              |
-| `S3_ACCESS_KEY_ID`  | Minio access key id                           |
-| `S3_ACCESS_SECRET`  | Minio access secret                           |
+S3_ACCESS_KEY_ID=''
+S3_ACCESS_SECRET=''
+S3_ENDPOINT=''
+S3_ENDPOINT_PUBLIC=''
+S3_BUCKET=''
