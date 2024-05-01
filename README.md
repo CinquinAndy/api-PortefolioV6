@@ -53,6 +53,5 @@ yarn develop
 | `S3_ENDPOINT`       | Minio endpoint                                |
 | `S3_PORT`           | Minio port                                    |
 | `S3_SSL`            | Minio ssl enable                              |
-| `S3_BUCKET`         | Minio bucket name                             |
 | `S3_ACCESS_KEY_ID`  | Minio access key id                           |
 | `S3_ACCESS_SECRET`  | Minio access secret                           |

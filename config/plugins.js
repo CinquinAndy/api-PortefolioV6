@@ -8,7 +8,6 @@ module.exports = ({env}) => ({
         useSSL: env("S3_SSL", false) === "true", //true or false
         accessKey: env("S3_ACCESS_KEY_ID"),
         secretKey: env("S3_ACCESS_SECRET"),
-        bucket: env("S3_BUCKET"),
       },
     },
   },
