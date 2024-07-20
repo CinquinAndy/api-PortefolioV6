@@ -35,7 +35,7 @@
     "strapi-plugin-translate": "1.2.4",
     "strapi-provider-cloudflare-r2": "^0.2.5",
     "strapi-provider-translate-deepl": "1.1.12",
-    "styled-components": "6.1.11"
+    "styled-components": "6.1.12"
   },
   "author": {
     "name": "Andy Cinquin"
