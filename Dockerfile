@@ -1,6 +1,6 @@
 FROM node:20-bullseye
 
-WORKDIR /app
+WORKDIR /
 
 COPY package.json yarn.lock ./
 
