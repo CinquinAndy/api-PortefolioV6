@@ -20,10 +20,10 @@
   },
   "dependencies": {
     "@retikolo/drag-drop-content-types": "^1.5.2",
-    "@strapi/plugin-documentation": "4.17.1",
-    "@strapi/plugin-i18n": "4.17.1",
-    "@strapi/plugin-users-permissions": "4.17.1",
-    "@strapi/strapi": "4.17.1",
+    "@strapi/plugin-documentation": "4.25.8",
+    "@strapi/plugin-i18n": "4.25.8",
+    "@strapi/plugin-users-permissions": "4.25.8",
+    "@strapi/strapi": "4.25.8",
     "lodash": "4.17.21",
     "minio-for-strapi-v4": "1.0.7",
     "pg": "8.12.0",
@@ -35,7 +35,7 @@
     "strapi-plugin-translate": "1.2.4",
     "strapi-provider-cloudflare-r2": "^0.2.5",
     "strapi-provider-translate-deepl": "1.1.12",
-    "styled-components": "6.1.12"
+    "styled-components": "5.3.11"
   },
   "author": {
     "name": "Andy Cinquin"
