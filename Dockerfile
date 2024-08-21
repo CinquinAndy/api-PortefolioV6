@@ -1,6 +1,6 @@
 FROM node:20-bullseye
 
-WORKDIR /
+WORKDIR /app
 
 COPY package.json yarn.lock ./
 
@@ -26,4 +26,7 @@ ENV DB_CLIENT='postgres'
 
 EXPOSE 1337
 
-CMD ["npm", "start"]
+RUN yarn build
+
+# run both build and start commands in one line
+CMD ["yarn", "start"]
