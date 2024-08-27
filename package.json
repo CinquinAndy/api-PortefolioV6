@@ -19,7 +19,7 @@
     "supertest": "6.3.4"
   },
   "dependencies": {
-    "@retikolo/drag-drop-content-types": "1.5.4",
+    "@retikolo/drag-drop-content-types": "1.6.0",
     "@strapi/plugin-documentation": "4.25.8",
     "@strapi/plugin-i18n": "4.25.8",
     "@strapi/plugin-users-permissions": "4.25.8",
