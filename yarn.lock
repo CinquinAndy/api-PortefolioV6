@@ -11420,10 +11420,10 @@ statuses@2.0.1, statuses@^2.0.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==
 
-strapi-plugin-auto-alt-caption-title-on-images-ai-enhanced@1.0.111:
-  version "1.0.111"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-auto-alt-caption-title-on-images-ai-enhanced/-/strapi-plugin-auto-alt-caption-title-on-images-ai-enhanced-1.0.111.tgz#6c1a740b0cceb5953d93654347538929bd71e57f"
-  integrity sha512-filLeBTqdbI6A94/yp1UfQIRx9xZub6eN0WLh2CNWi95f5HKC6isKkGB2wvChKlpi/u+D49OvLGqlPVR/LxRHQ==
+strapi-plugin-auto-alt-caption-title-on-images-ai-enhanced@1.0.112:
+  version "1.0.112"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-auto-alt-caption-title-on-images-ai-enhanced/-/strapi-plugin-auto-alt-caption-title-on-images-ai-enhanced-1.0.112.tgz#e49cabfe30cf6a3239a0198c8efb67cd3d745b32"
+  integrity sha512-jCZxe7tm71tJe7Q6ZG4cBrKlz9ApVGk/alCav01FPFaw81OrjNpiuuMFIaX6hVf3MU9UKSLku4rg4qjCPAaCqg==
   dependencies:
     "@strapi/design-system" "^1.6.3"
     "@strapi/helper-plugin" "^4.6.0"
