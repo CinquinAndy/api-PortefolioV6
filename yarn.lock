@@ -1836,10 +1836,10 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.19.1.tgz#984771bfd1de2715f42394c87fb716c1349e014f"
   integrity sha512-S45oynt/WH19bHbIXjtli6QmwNYvaz+vtnubvNpNDvUOoA/OWh6j1OikIP3G+v5GHdxyC6EXoChG3HgYGEUfcg==
 
-"@retikolo/drag-drop-content-types@1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@retikolo/drag-drop-content-types/-/drag-drop-content-types-1.6.0.tgz#1eb3eefac352172dec1bd6e8e72ff25811536dae"
-  integrity sha512-Zowuq5g1LLxbpmR3S8EWsdYkwRqEvyQFSJt3Nd5kRzXpw55QU9Maw8QgEojM3ijhfc3meQaoUCkKE1kY+Y+oEA==
+"@retikolo/drag-drop-content-types@1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@retikolo/drag-drop-content-types/-/drag-drop-content-types-1.7.1.tgz#dbfdcc9d09eb6f974ca2806a35a33deb7b680aee"
+  integrity sha512-fgc9+FMXP86GQKlzWTvDzshle+iAau0YRdM2hQBzkdW0N3Nsx/MBiyVIpNOwK+0Zy21AY5ZIhKNvhL0rfiNzUg==
   dependencies:
     "@strapi/helper-plugin" "^4.25.0"
     array-move "^4.0.0"
