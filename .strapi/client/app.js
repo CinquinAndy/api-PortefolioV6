@@ -6,7 +6,7 @@ import dragDropContentTypes from "@retikolo/drag-drop-content-types/strapi-admin
 import documentation from "@strapi/plugin-documentation/strapi-admin";
 import i18N from "@strapi/plugin-i18n/strapi-admin";
 import usersPermissions from "@strapi/plugin-users-permissions/strapi-admin";
-import autoAltCaptionTitleOnImagesAiEnhanced from "strapi-plugin-auto-alt-caption-title-on-images-ai-enhanced/strapi-admin";
+import autoAltCaptionTitleOnImagesAiEnhanced from "strapi-auto-alt-caption-title-on-images-ai-enhanced/strapi-admin";
 import translate from "strapi-plugin-translate/strapi-admin";
 import { renderAdmin } from "@strapi/strapi/admin";
 
