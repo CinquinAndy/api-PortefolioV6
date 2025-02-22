@@ -28,7 +28,7 @@
     "pg": "8.13.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "strapi-auto-alt-caption-title-on-images-ai-enhanced": "1.1.18",
+    "strapi-auto-alt-caption-title-on-images-ai-enhanced": "1.1.19",
     "strapi-plugin-populate-deep": "3.0.1",
     "strapi-plugin-translate": "1.3.2",
     "strapi-provider-cloudflare-r2": "0.3.0",
