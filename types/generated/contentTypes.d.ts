@@ -863,6 +863,9 @@ export interface ApiRealisationRealisation extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     createdAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
@@ -876,11 +879,17 @@ export interface ApiRealisationRealisation extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     galery: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     image_presentation: Attribute.Media<
@@ -890,11 +899,17 @@ export interface ApiRealisationRealisation extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     links: Attribute.Component<'link.link', true> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     locale: Attribute.String;
@@ -915,11 +930,17 @@ export interface ApiRealisationRealisation extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     seo_title: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     slug: Attribute.String &
@@ -927,28 +948,54 @@ export interface ApiRealisationRealisation extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     subtitle: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
+        translate: {
+          translate: 'translate';
+        };
+      }>;
+    techno: Attribute.Component<'techno.techno', true> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+        translate: {
+          translate: 'translate';
+        };
       }>;
     technologies: Attribute.Relation<
       'api::realisation.realisation',
       'oneToMany',
       'api::technology.technology'
-    >;
+    > &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
     title: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     type: Attribute.String &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
+        };
+        translate: {
+          translate: 'translate';
         };
       }>;
     updatedAt: Attribute.DateTime;

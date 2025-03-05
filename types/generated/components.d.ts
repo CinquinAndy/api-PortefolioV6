@@ -246,6 +246,18 @@ export interface TagTag extends Schema.Component {
   };
 }
 
+export interface TechnoTechno extends Schema.Component {
+  collectionName: 'components_techno_technos';
+  info: {
+    displayName: 'techno';
+    icon: 'alien';
+  };
+  attributes: {
+    icon: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    name: Attribute.String;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
@@ -266,6 +278,7 @@ declare module '@strapi/types' {
       'sitemaps.sitemaps': SitemapsSitemaps;
       'socials.socials': SocialsSocials;
       'tag.tag': TagTag;
+      'techno.techno': TechnoTechno;
     }
   }
 }
