@@ -796,6 +796,11 @@ export interface ApiCourseCourse extends Schema.CollectionType {
   };
   attributes: {
     category: Attribute.String;
+    course: Attribute.Relation<
+      'api::course.course',
+      'oneToOne',
+      'api::course.course'
+    >;
     createdAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
       'api::course.course',
@@ -813,6 +818,11 @@ export interface ApiCourseCourse extends Schema.CollectionType {
       'api::lesson.lesson'
     >;
     order: Attribute.Integer;
+    parent_course: Attribute.Relation<
+      'api::course.course',
+      'oneToOne',
+      'api::course.course'
+    >;
     publishedAt: Attribute.DateTime;
     seo: Attribute.Component<'seo.seo'>;
     slug: Attribute.String;

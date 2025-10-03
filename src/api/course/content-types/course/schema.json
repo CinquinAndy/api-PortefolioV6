@@ -61,6 +61,18 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::lesson.lesson"
+    },
+    "parent_course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course.course",
+      "inversedBy": "course"
+    },
+    "course": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::course.course",
+      "inversedBy": "parent_course"
     }
   }
 }
