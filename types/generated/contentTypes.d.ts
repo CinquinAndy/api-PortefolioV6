@@ -796,9 +796,9 @@ export interface ApiCourseCourse extends Schema.CollectionType {
   };
   attributes: {
     category: Attribute.String;
-    course: Attribute.Relation<
+    chapters: Attribute.Relation<
       'api::course.course',
-      'oneToOne',
+      'manyToMany',
       'api::course.course'
     >;
     createdAt: Attribute.DateTime;
@@ -820,7 +820,7 @@ export interface ApiCourseCourse extends Schema.CollectionType {
     order: Attribute.Integer;
     parent_course: Attribute.Relation<
       'api::course.course',
-      'oneToOne',
+      'manyToMany',
       'api::course.course'
     >;
     publishedAt: Attribute.DateTime;

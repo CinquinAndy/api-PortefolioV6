@@ -64,13 +64,13 @@
     },
     "parent_course": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToMany",
       "target": "api::course.course",
-      "inversedBy": "course"
+      "inversedBy": "chapters"
     },
-    "course": {
+    "chapters": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToMany",
       "target": "api::course.course",
       "inversedBy": "parent_course"
     }
