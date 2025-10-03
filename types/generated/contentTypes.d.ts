@@ -783,6 +783,90 @@ export interface ApiContentWebsiteContentWebsite extends Schema.SingleType {
   };
 }
 
+export interface ApiCourseCourse extends Schema.CollectionType {
+  collectionName: 'courses';
+  info: {
+    description: '';
+    displayName: 'course';
+    pluralName: 'courses';
+    singularName: 'course';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    category: Attribute.String;
+    createdAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::course.course',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    description: Attribute.Text;
+    duration_total: Attribute.Integer;
+    featured: Attribute.Boolean;
+    is_published: Attribute.Boolean;
+    lessons: Attribute.Relation<
+      'api::course.course',
+      'oneToMany',
+      'api::lesson.lesson'
+    >;
+    order: Attribute.Integer;
+    publishedAt: Attribute.DateTime;
+    seo: Attribute.Component<'seo.seo'>;
+    slug: Attribute.String;
+    tags: Attribute.Component<'tag.tag', true>;
+    thumbnail: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    title: Attribute.String;
+    updatedAt: Attribute.DateTime;
+    updatedBy: Attribute.Relation<
+      'api::course.course',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
+export interface ApiLessonLesson extends Schema.CollectionType {
+  collectionName: 'lessons';
+  info: {
+    displayName: 'lesson';
+    pluralName: 'lessons';
+    singularName: 'lesson';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    attachments: Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    content: Attribute.Text;
+    createdAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::lesson.lesson',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    description: Attribute.Text;
+    order: Attribute.Integer;
+    publishedAt: Attribute.DateTime;
+    slug: Attribute.String;
+    title: Attribute.String;
+    updatedAt: Attribute.DateTime;
+    updatedBy: Attribute.Relation<
+      'api::lesson.lesson',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiNotFoundNotFound extends Schema.SingleType {
   collectionName: 'not_founds';
   info: {
@@ -1718,6 +1802,8 @@ declare module '@strapi/types' {
       'api::article.article': ApiArticleArticle;
       'api::cgu.cgu': ApiCguCgu;
       'api::content-website.content-website': ApiContentWebsiteContentWebsite;
+      'api::course.course': ApiCourseCourse;
+      'api::lesson.lesson': ApiLessonLesson;
       'api::not-found.not-found': ApiNotFoundNotFound;
       'api::realisation.realisation': ApiRealisationRealisation;
       'api::service-grid.service-grid': ApiServiceGridServiceGrid;
