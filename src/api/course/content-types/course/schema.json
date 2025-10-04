@@ -70,13 +70,13 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::course.course",
-      "mappedBy": "chapters"
+      "inversedBy": "chapters"
     },
     "chapters": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::course.course",
-      "mappedBy": "parent_course"
+      "inversedBy": "parent_course"
     }
   }
 }
