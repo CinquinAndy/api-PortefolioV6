@@ -794,6 +794,11 @@ export interface ApiCourseCourse extends Schema.CollectionType {
   options: {
     draftAndPublish: true;
   };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
   attributes: {
     category: Attribute.String;
     chapters: Attribute.Relation<
@@ -816,6 +821,12 @@ export interface ApiCourseCourse extends Schema.CollectionType {
       'api::course.course',
       'oneToMany',
       'api::lesson.lesson'
+    >;
+    locale: Attribute.String;
+    localizations: Attribute.Relation<
+      'api::course.course',
+      'oneToMany',
+      'api::course.course'
     >;
     order: Attribute.Integer;
     parent_course: Attribute.Relation<
