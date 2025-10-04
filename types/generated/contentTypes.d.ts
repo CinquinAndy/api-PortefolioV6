@@ -860,6 +860,11 @@ export interface ApiLessonLesson extends Schema.CollectionType {
   options: {
     draftAndPublish: true;
   };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
   attributes: {
     attachments: Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
@@ -874,6 +879,12 @@ export interface ApiLessonLesson extends Schema.CollectionType {
     > &
       Attribute.Private;
     description: Attribute.Text;
+    locale: Attribute.String;
+    localizations: Attribute.Relation<
+      'api::lesson.lesson',
+      'oneToMany',
+      'api::lesson.lesson'
+    >;
     order: Attribute.Integer;
     publishedAt: Attribute.DateTime;
     slug: Attribute.String;
