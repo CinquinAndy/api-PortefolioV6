@@ -800,12 +800,22 @@ export interface ApiCourseCourse extends Schema.CollectionType {
     };
   };
   attributes: {
-    category: Attribute.String;
+    category: Attribute.String &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
     chapters: Attribute.Relation<
       'api::course.course',
       'manyToMany',
       'api::course.course'
-    >;
+    > &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
     createdAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
       'api::course.course',
@@ -813,7 +823,18 @@ export interface ApiCourseCourse extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
-    description: Attribute.Text;
+    description: Attribute.Text &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
+    difficulty: Attribute.Integer &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     duration_total: Attribute.Integer;
     featured: Attribute.Boolean;
     is_published: Attribute.Boolean;
@@ -821,7 +842,12 @@ export interface ApiCourseCourse extends Schema.CollectionType {
       'api::course.course',
       'oneToMany',
       'api::lesson.lesson'
-    >;
+    > &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
     locale: Attribute.String;
     localizations: Attribute.Relation<
       'api::course.course',
@@ -833,13 +859,43 @@ export interface ApiCourseCourse extends Schema.CollectionType {
       'api::course.course',
       'manyToMany',
       'api::course.course'
-    >;
+    > &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
     publishedAt: Attribute.DateTime;
-    seo: Attribute.Component<'seo.seo'>;
-    slug: Attribute.String;
-    tags: Attribute.Component<'tag.tag', true>;
-    thumbnail: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    title: Attribute.String;
+    seo: Attribute.Component<'seo.seo'> &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
+    slug: Attribute.String &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
+    tags: Attribute.Component<'tag.tag', true> &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
+    thumbnail: Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
+    title: Attribute.String &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
     updatedAt: Attribute.DateTime;
     updatedBy: Attribute.Relation<
       'api::course.course',
