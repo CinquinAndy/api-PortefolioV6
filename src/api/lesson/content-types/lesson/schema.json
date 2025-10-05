@@ -4,7 +4,8 @@
   "info": {
     "singularName": "lesson",
     "pluralName": "lessons",
-    "displayName": "lesson"
+    "displayName": "lesson",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,29 +17,68 @@
   },
   "attributes": {
     "slug": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
     },
     "order": {
       "type": "integer"
     },
     "content": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
     },
     "attachments": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": true
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "seo.seo"
     }
   }
 }

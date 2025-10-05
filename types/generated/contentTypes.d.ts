@@ -918,6 +918,7 @@ export interface ApiCourseCourse extends Schema.CollectionType {
 export interface ApiLessonLesson extends Schema.CollectionType {
   collectionName: 'lessons';
   info: {
+    description: '';
     displayName: 'lesson';
     pluralName: 'lessons';
     singularName: 'lesson';
@@ -934,8 +935,18 @@ export interface ApiLessonLesson extends Schema.CollectionType {
     attachments: Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
-    >;
-    content: Attribute.Text;
+    > &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
+    content: Attribute.Text &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
     createdAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
       'api::lesson.lesson',
@@ -943,7 +954,12 @@ export interface ApiLessonLesson extends Schema.CollectionType {
       'admin::user'
     > &
       Attribute.Private;
-    description: Attribute.Text;
+    description: Attribute.Text &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
     locale: Attribute.String;
     localizations: Attribute.Relation<
       'api::lesson.lesson',
@@ -952,8 +968,27 @@ export interface ApiLessonLesson extends Schema.CollectionType {
     >;
     order: Attribute.Integer;
     publishedAt: Attribute.DateTime;
-    slug: Attribute.String;
-    title: Attribute.String;
+    seo: Attribute.Component<'seo.seo'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+        translate: {
+          translate: 'translate';
+        };
+      }>;
+    slug: Attribute.String &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
+    title: Attribute.String &
+      Attribute.SetPluginOptions<{
+        translate: {
+          translate: 'translate';
+        };
+      }>;
     updatedAt: Attribute.DateTime;
     updatedBy: Attribute.Relation<
       'api::lesson.lesson',
