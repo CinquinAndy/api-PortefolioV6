@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-10-05T18:48:05.814Z"
+    "x-generation-date": "2025-10-05T18:53:07.738Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2297,6 +2297,9 @@
           "content_popup": {
             "type": "string"
           },
+          "content_course": {
+            "$ref": "#/components/schemas/ContentCourseContentCourseComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -2361,6 +2364,9 @@
               },
               "content_popup": {
                 "type": "string"
+              },
+              "content_course": {
+                "$ref": "#/components/schemas/ContentCourseContentCourseComponent"
               },
               "locale": {
                 "type": "string"
@@ -2536,6 +2542,9 @@
           },
           "content_popup": {
             "type": "string"
+          },
+          "content_course": {
+            "$ref": "#/components/schemas/ContentCourseContentCourseComponent"
           },
           "createdAt": {
             "type": "string",
@@ -3695,6 +3704,34 @@
         }
       },
       "ContentNotfoundContentNotfoundComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "seo": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "title": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "h1": {
+                "type": "string"
+              },
+              "canonical": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "ContentCourseContentCourseComponent": {
         "type": "object",
         "properties": {
           "id": {

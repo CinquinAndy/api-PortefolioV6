@@ -75,6 +75,17 @@ export interface ContentContactContentContact extends Schema.Component {
   };
 }
 
+export interface ContentCourseContentCourse extends Schema.Component {
+  collectionName: 'components_content_course_content_courses';
+  info: {
+    displayName: 'Content_course';
+    icon: 'alien';
+  };
+  attributes: {
+    seo: Attribute.Component<'seo.seo'>;
+  };
+}
+
 export interface ContentFooterContentFooter extends Schema.Component {
   collectionName: 'components_content_footer_content_footers';
   info: {
@@ -266,6 +277,7 @@ declare module '@strapi/types' {
       'content-blog.content-blog': ContentBlogContentBlog;
       'content-cgu.content-cgu': ContentCguContentCgu;
       'content-contact.content-contact': ContentContactContentContact;
+      'content-course.content-course': ContentCourseContentCourse;
       'content-footer.content-footer': ContentFooterContentFooter;
       'content-home.content-home': ContentHomeContentHome;
       'content-notfound.content-notfound': ContentNotfoundContentNotfound;

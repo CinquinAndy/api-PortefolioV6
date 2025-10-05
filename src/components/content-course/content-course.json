@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_course_content_courses",
+  "info": {
+    "displayName": "Content_course",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

@@ -670,6 +670,15 @@ export interface ApiContentWebsiteContentWebsite extends Schema.SingleType {
           translate: 'translate';
         };
       }>;
+    content_course: Attribute.Component<'content-course.content-course'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+        translate: {
+          translate: 'translate';
+        };
+      }>;
     content_footer: Attribute.Component<'content-footer.content-footer'> &
       Attribute.SetPluginOptions<{
         i18n: {
