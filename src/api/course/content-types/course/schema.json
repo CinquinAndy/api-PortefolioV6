@@ -19,6 +19,9 @@
     "slug": {
       "type": "string",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -27,6 +30,9 @@
     "title": {
       "type": "string",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -35,6 +41,9 @@
     "description": {
       "type": "text",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -54,6 +63,9 @@
         "audios"
       ],
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -73,6 +85,9 @@
       "repeatable": true,
       "component": "tag.tag",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -83,6 +98,9 @@
       "repeatable": false,
       "component": "seo.seo",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -91,6 +109,9 @@
     "category": {
       "type": "string",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -101,6 +122,9 @@
       "relation": "oneToMany",
       "target": "api::lesson.lesson",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -112,6 +136,9 @@
       "target": "api::course.course",
       "inversedBy": "chapters",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -123,18 +150,21 @@
       "target": "api::course.course",
       "inversedBy": "parent_course",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
       }
     },
     "difficulty": {
+      "type": "integer",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "integer"
+      }
     }
   }
 }

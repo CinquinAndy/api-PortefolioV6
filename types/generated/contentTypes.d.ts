@@ -811,6 +811,9 @@ export interface ApiCourseCourse extends Schema.CollectionType {
   attributes: {
     category: Attribute.String &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
@@ -821,6 +824,9 @@ export interface ApiCourseCourse extends Schema.CollectionType {
       'api::course.course'
     > &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
@@ -834,6 +840,9 @@ export interface ApiCourseCourse extends Schema.CollectionType {
       Attribute.Private;
     description: Attribute.Text &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
@@ -853,6 +862,9 @@ export interface ApiCourseCourse extends Schema.CollectionType {
       'api::lesson.lesson'
     > &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
@@ -870,6 +882,9 @@ export interface ApiCourseCourse extends Schema.CollectionType {
       'api::course.course'
     > &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
@@ -877,30 +892,45 @@ export interface ApiCourseCourse extends Schema.CollectionType {
     publishedAt: Attribute.DateTime;
     seo: Attribute.Component<'seo.seo'> &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
       }>;
     slug: Attribute.String &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
       }>;
     tags: Attribute.Component<'tag.tag', true> &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
       }>;
     thumbnail: Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
       }>;
     title: Attribute.String &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
@@ -937,12 +967,18 @@ export interface ApiLessonLesson extends Schema.CollectionType {
       true
     > &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
       }>;
     content: Attribute.Text &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
@@ -956,6 +992,9 @@ export interface ApiLessonLesson extends Schema.CollectionType {
       Attribute.Private;
     description: Attribute.Text &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
@@ -979,12 +1018,18 @@ export interface ApiLessonLesson extends Schema.CollectionType {
       }>;
     slug: Attribute.String &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };
       }>;
     title: Attribute.String &
       Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
         translate: {
           translate: 'translate';
         };

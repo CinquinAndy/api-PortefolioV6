@@ -19,6 +19,9 @@
     "slug": {
       "type": "string",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -27,6 +30,9 @@
     "title": {
       "type": "string",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -35,6 +41,9 @@
     "description": {
       "type": "text",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -46,6 +55,9 @@
     "content": {
       "type": "text",
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
@@ -62,6 +74,9 @@
         "audios"
       ],
       "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
         "translate": {
           "translate": "translate"
         }
