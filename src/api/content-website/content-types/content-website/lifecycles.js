@@ -5,7 +5,7 @@
  * This content type affects all pages, so revalidation is critical
  */
 
-const { handleLifecycleEvent } = require('../../../../../services/revalidation');
+const { handleLifecycleEvent } = require('../../../../services/revalidation');
 
 module.exports = {
   async afterCreate(event) {

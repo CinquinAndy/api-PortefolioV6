@@ -5,7 +5,7 @@
  * Note: Lessons revalidate the 'courses' tag since they are part of courses
  */
 
-const { handleLifecycleEvent } = require('../../../../../services/revalidation');
+const { handleLifecycleEvent } = require('../../../../services/revalidation');
 
 module.exports = {
   async afterCreate(event) {

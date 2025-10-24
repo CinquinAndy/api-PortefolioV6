@@ -4,7 +4,7 @@
  * Automatically triggers ISR revalidation when articles are created, updated, or deleted
  */
 
-const { handleLifecycleEvent } = require('../../../../../services/revalidation');
+const { handleLifecycleEvent } = require('../../../../services/revalidation');
 
 module.exports = {
   async afterCreate(event) {
