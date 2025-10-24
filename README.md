@@ -19,6 +19,31 @@ enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-res
 yarn develop
 ```
 
+## 🔄 ISR Automatic Revalidation
+
+This Strapi instance is configured with **automatic ISR (Incremental Static Regeneration) revalidation** for Next.js.
+
+When you create, update, or delete content in Strapi, the Next.js frontend is automatically revalidated in real-time.
+
+**Configured Content Types:**
+- Articles
+- Realisations (Portfolio projects)
+- Courses
+- Lessons
+- Content Website (Global content)
+
+**Documentation:** See [ISR_STRAPI_SETUP.md](./ISR_STRAPI_SETUP.md) for complete setup instructions and troubleshooting.
+
+**Quick Setup:**
+1. Generate a secret: `openssl rand -base64 32`
+2. Add to `.env`:
+   ```bash
+   NEXT_PUBLIC_URL=https://your-domain.com
+   REVALIDATION_SECRET=your-generated-secret
+   ENABLE_ISR_REVALIDATION=true
+   ```
+3. Use the same `REVALIDATION_SECRET` in your Next.js `.env`
+
 ## ⚙️ Deployment
 
 ### CI / CD environments variables
