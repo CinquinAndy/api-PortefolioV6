@@ -25,15 +25,15 @@
     "@strapi/plugin-users-permissions": "4.26.1",
     "@strapi/strapi": "4.26.1",
     "lodash": "4.18.1",
-    "pg": "8.20.0",
+    "pg": "8.21.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "react-router-dom": "5.3.4",
     "strapi-auto-alt-caption-title-on-images-ai-enhanced": "1.1.38",
     "strapi-plugin-populate-deep": "3.0.1",
     "strapi-plugin-translate": "1.4.3",
     "strapi-provider-cloudflare-r2": "0.3.0",
     "strapi-provider-translate-deepl": "1.2.8",
-    "react-router-dom": "5.3.4",
     "styled-components": "5.3.11"
   },
   "author": {
@@ -45,5 +45,6 @@
   "engines": {
     "node": "20.x"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@4.14.1"
 }
